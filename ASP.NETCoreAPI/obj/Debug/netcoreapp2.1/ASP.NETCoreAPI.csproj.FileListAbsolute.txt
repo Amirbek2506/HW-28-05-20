@@ -9,3 +9,6 @@ D:\projects\ASP.NETCoreAPI\ASP.NETCoreAPI\obj\Debug\netcoreapp2.1\ASP.NETCoreAPI
 D:\projects\ASP.NETCoreAPI\ASP.NETCoreAPI\obj\Debug\netcoreapp2.1\ASP.NETCoreAPI.AssemblyInfoInputs.cache
 D:\projects\ASP.NETCoreAPI\ASP.NETCoreAPI\obj\Debug\netcoreapp2.1\ASP.NETCoreAPI.AssemblyInfo.cs
 D:\projects\ASP.NETCoreAPI\ASP.NETCoreAPI\obj\Debug\netcoreapp2.1\ASP.NETCoreAPI.RazorTargetAssemblyInfo.cache
+D:\projects\ASP.NETCoreAPI\ASP.NETCoreAPI\bin\Debug\netcoreapp2.1\ASP.NETCoreAPI.pdb
+D:\projects\ASP.NETCoreAPI\ASP.NETCoreAPI\obj\Debug\netcoreapp2.1\ASP.NETCoreAPI.dll
+D:\projects\ASP.NETCoreAPI\ASP.NETCoreAPI\obj\Debug\netcoreapp2.1\ASP.NETCoreAPI.pdb
