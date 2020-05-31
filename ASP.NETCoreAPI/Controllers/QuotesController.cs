@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ASP.NETCoreAPI.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class QuotesController : ControllerBase
     {
         DataContext _context { get; }
@@ -23,12 +23,13 @@ namespace ASP.NETCoreAPI.Controllers
         {
             if (!ModelState.IsValid)
             {
-                ModelState.AddModelError("Ошибка цитат", "Ваш цитат не корректно!");
+                ModelState.AddModelError("ErrorAddQuotes", "Ваш цитат не корректно!");
                 return BadRequest(ModelState);
             }
+            quote.InsertDate = DateTime.Now.Date;
             _context.Quotes.Add(quote);
-            int result = await _context.SaveChangesAsync();
-            if (result > 0)
+            ;
+            if (await _context.SaveChangesAsync() > 0)
                 return Ok("Цитат успешно добавлен!");
 
             return BadRequest("Получилось ошибка при добовлении цитата!");
